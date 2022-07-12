@@ -1,0 +1,25 @@
+* {
+  font-size: 110%;
+}
+
+h1 {
+  color: #FF00FF;
+}
+
+h2 {
+  background-color: yellow;
+}
+
+img {
+  height: auto;
+  width: 500px;
+}
+
+.red {
+  color: blue;
+}
+
+.meow {
+  font-family: "Comic Sans", "Times New Roman", "Arial";
+  color: yellow;
+}
