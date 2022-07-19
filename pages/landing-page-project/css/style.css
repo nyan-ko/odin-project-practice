@@ -8,16 +8,14 @@ body {
 
 .header {
     display: flex;
-    justify-content: center;
     background-color: grey;
-    min-width: 100vw;
+    padding: 26px 20vw;
 }
 
 .header .flex-content {
     display: flex;
     justify-content: space-between;
-    gap: 33vw;
-    padding: 26px 0;
+    flex: 1;
 }
 
 .section {
