@@ -1,18 +1,29 @@
 body {
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
     min-height: 100vh;
     margin: 0;
 }
 
 .header {
     display: flex;
+    justify-content: center;
+    background-color: grey;
+    min-width: 100vw;
+}
+
+.header .flex-content {
+    display: flex;
     justify-content: space-between;
+    gap: 33vw;
+    padding: 26px 0;
 }
 
 .section {
     display: flex;
     justify-content: center;
+    flex: auto;
 }
 
 #two .flex-content {
