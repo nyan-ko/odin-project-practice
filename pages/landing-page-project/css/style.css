@@ -62,6 +62,26 @@ body {
     align-items: center;
 }
 
+#three {
+    padding: 100px 33vw;
+    background-color: yellow;
+}
+
+#three .flex-content {
+    flex-direction: column;
+    flex: 1;
+}
+
+.quote {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+}
+
 ul {
     display: flex;
     list-style-type: none;
