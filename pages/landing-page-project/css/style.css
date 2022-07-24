@@ -18,10 +18,22 @@ body {
     flex: 1;
 }
 
-.section {
+#one, #two {
+    padding: 80px 20vw;
+}
+
+#one {
+    background-color: blue;
+}
+
+#one .flex-content {
+    justify-content: space-between;
+    flex: 1;
+}
+
+.hero {
     display: flex;
-    justify-content: center;
-    flex: auto;
+    flex-direction: column;
 }
 
 #two .flex-content {
@@ -40,4 +52,25 @@ ul {
     margin: 0px;
     padding: 0px;
     gap: 8px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 0px;
+    padding: 0px;
+    width: 80px;
+}
+
+#one img {
+    width: 300px;
+    height: 256px;
 }
