@@ -55,10 +55,6 @@ body {
     align-items: center;
 }
 
-.gallery-item img {
-    flex: auto;
-} 
-
 ul {
     display: flex;
     list-style-type: none;
