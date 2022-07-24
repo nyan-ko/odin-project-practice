@@ -6,14 +6,16 @@ body {
     margin: 0;
 }
 
-.header {
+.header, .section, .flex-content {
     display: flex;
+}
+
+.header {
     background-color: grey;
     padding: 26px 20vw;
 }
 
 .header .flex-content {
-    display: flex;
     justify-content: space-between;
     flex: 1;
 }
