@@ -20,11 +20,8 @@ body {
     flex: 1;
 }
 
-#one, #two {
-    padding: 80px 20vw;
-}
-
 #one {
+    padding: 80px 20vw;
     background-color: blue;
 }
 
@@ -36,6 +33,10 @@ body {
 .hero {
     display: flex;
     flex-direction: column;
+}
+
+#two {
+    padding: 60px 20vw;
 }
 
 #two .flex-content {
