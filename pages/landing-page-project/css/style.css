@@ -82,6 +82,17 @@ body {
     justify-content: flex-end;
 }
 
+#four {
+    padding: 80px 20vw;
+}
+
+#four .flex-content {
+    padding: 30px 80px;
+    background-color: blue;
+    justify-content: space-between;
+    flex: 1;
+}
+
 ul {
     display: flex;
     list-style-type: none;
@@ -102,8 +113,7 @@ p {
 
 button {
     margin: 0px;
-    padding: 0px;
-    width: 80px;
+    padding: 10px;
 }
 
 #one img {
