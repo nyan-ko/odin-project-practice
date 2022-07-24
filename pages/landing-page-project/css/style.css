@@ -36,7 +36,8 @@ body {
 }
 
 #two {
-    padding: 60px 20vw;
+    padding: 60px 20vw 120px;
+    background-color: grey;
 }
 
 #two .flex-content {
