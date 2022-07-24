@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-.header, .section, .flex-content {
+.header, .section, .flex-content, .footer {
     display: flex;
 }
 
@@ -92,6 +92,11 @@ body {
     background-color: blue;
     justify-content: space-between;
     flex: 1;
+}
+
+.footer {
+    padding: 20px 0;
+    justify-content: center;
 }
 
 ul {
