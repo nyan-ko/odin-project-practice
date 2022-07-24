@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    font-family: sans-serif;
     min-height: 100vh;
     margin: 0;
 }
@@ -11,18 +11,31 @@ body {
 }
 
 .header {
-    background-color: grey;
+    background-color: #1f2937;
     padding: 26px 20vw;
 }
 
 .header .flex-content {
     justify-content: space-between;
+    align-items: center;
     flex: 1;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
 #one {
     padding: 80px 20vw;
-    background-color: blue;
+    background-color: #1f2937;
 }
 
 #one .flex-content {
@@ -36,9 +49,31 @@ body {
     align-items: baseline;
 }
 
+.hero h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+    padding-bottom: 4px;
+}
+
+.hero p {
+    font-size: 24px;
+    color: #e5e7eb;
+    padding-bottom: 12px;
+}
+
+.hero button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color: #1f2937;
+    color: #e5e7eb;
+    font-weight: 700;
+    width: 130px;
+}
+
 #two {
     padding: 60px 20vw 120px;
-    background-color: grey;
+    background-color: #f9faf8;
 }
 
 #two .flex-content {
@@ -52,6 +87,12 @@ body {
     justify-content: center;
 }
 
+.gallery-title h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 700;
+}
+
 .gallery {
     display: flex;
     justify-content: space-between;
@@ -61,11 +102,20 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 8px;
+}
+
+.gallery-item img {
+    border-radius: 16px;
+}
+
+.gallery-item p {
+    color: grey;
 }
 
 #three {
     padding: 100px 33vw;
-    background-color: yellow;
+    background-color: #e5e7eb;
 }
 
 #three .flex-content {
@@ -76,11 +126,17 @@ body {
 .quote {
     display: flex;
     justify-content: flex-start;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .quote-author {
     display: flex;
     justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
 }
 
 #four {
@@ -88,15 +144,42 @@ body {
 }
 
 #four .flex-content {
-    padding: 30px 80px;
-    background-color: blue;
+    padding: 30px 180px;
+    background-color: #3882f6;
     justify-content: space-between;
+    border-radius: 16px;
+    align-items: center;
     flex: 1;
+}
+
+#four h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+#four p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#four button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color: #e5e7eb;
+    border-width: 4px;
+    border-style: solid;
+    color: #e5e7eb;
+    font-weight: 700;
+    width: 130px;
 }
 
 .footer {
     padding: 20px 0;
     justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 ul {
