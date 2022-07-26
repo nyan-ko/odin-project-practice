@@ -6,20 +6,47 @@
 </head>
 <body>
     <script>
-        console.log(1+2)
-        console.log(1+2+3+4+5+6)
-        console.log((4+6+9)/77)
+        // console.log(1+2)
+        // console.log(1+2+3+4+5+6)
+        // console.log((4+6+9)/77)
 
-        let a=10
-        console.log(a)
-        console.log(a * 9)
-        let b = 7 * a
-        console.log(b)
+        // let a=10
+        // console.log(a)
+        // console.log(a * 9)
+        // let b = 7 * a
+        // console.log(b)
 
-        const max = 57
-        let actual = max - 13
-        let percentage = actual / max
-        console.log(percentage)
+        // const max = 57
+        // let actual = max - 13
+        // let percentage = actual / max
+        // console.log(percentage)
+
+        let user = prompt("Who's there?");
+
+        if (user === null || user === '')
+        {
+            alert("Canceled.");
+        }
+        else if (user === "Admin")
+        {
+            let pw = prompt("Password?")
+            if (pw === null || pw === '')
+            {
+                alert("Canceled");
+            }
+            else if (pw === "TheMaster")
+            {
+                alert("Welcome!");
+            }
+            else
+            {
+                alert("Wrong pw");
+            }
+        }
+        else
+        {
+            alert("go away");
+        }
     </script>
 </body>
 </html>
