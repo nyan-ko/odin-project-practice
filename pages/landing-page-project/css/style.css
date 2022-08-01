@@ -107,6 +107,7 @@ body {
 
 .gallery-item img {
     border-radius: 16px;
+    width: 100%;
 }
 
 .gallery-item p {
@@ -207,6 +208,6 @@ button {
 }
 
 #one img {
-    width: 300px;
-    height: 256px;
+    width: 100%;
+    /* height: 256px; */
 }
