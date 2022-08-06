@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let user = {};
+        user["name"] = "John";
+        user["surname"] = "Smith";
+        user["name"] = "Pete";
+        delete user["name"];
+
+        function isEmpty(obj) {
+            for (let key in obj) {
+                return false;
+            }
+            return true;
+        }
+
+        let salaries = {
+            John: 100,
+            Ann: 160,
+            Pete: 130
+        }
+
+        let sum = 0;
+        for (let salary in salaries) {
+            if (typeof salaries[salary] === 'number') {
+                sum += salaries[salary];
+            }
+        }
+        console.log(sum);
+
+        function timesNum2(obj) {
+            for (let key in obj) {
+                if (typeof obj[key] === 'number') {
+                    obj[key] *= 2;
+                }
+            }
+            return obj;
+        }
+
+        console.log(timesNum2(salaries));
+
+    </script>
+</body>
+</html>
