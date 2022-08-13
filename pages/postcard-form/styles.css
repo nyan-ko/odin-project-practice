@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'handwriting';
-    src: url('fonts/journal-webfont.woff2') format('woff2'),
-         url('fonts/journal-webfont.woff') format('woff');
+    src: url('fonts/applehandwritten.woff') format('woff2'),
+         url('fonts/applehandwritten.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,6 +17,12 @@
 * {
     padding: 0;
     margin: 0;
+}
+
+.wrapper {
+    display: inline-block;
+    padding: 4px;
+    border: 1px black solid;
 }
 
 .postcard {
@@ -38,10 +44,33 @@
 .form-item > input{
     flex: auto;
     border-width: 0 0 1px 0;
+    font-family: "handwriting";
+    font-size: 0.8rem;
 }
 
 .form-item > input:focus {
     outline: 0;
+}
+
+.form-item > label {
+    font-family: "handwriting";
+    font-size: 0.8rem;
+}
+
+#message {
+    resize: none;
+    width: 270px;
+    height: 300px;
+    font-family: "handwriting";
+    font-size: 0.8rem;
+}
+
+#message:focus {
+    outline: 0;
+}
+
+form > .contact {
+    padding-top: 100px;
 }
 
 h1 {
